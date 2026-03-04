@@ -7,3 +7,4 @@ sudo apt install -y pigpio nodejs npm tmux
 sudo apt autoremove -y
 sudo apt clean
 npm i ws shelljs pigpio
+sudo dpkg-reconfigure locales
