@@ -1,9 +1,9 @@
 #!/bin/bash
-apt remove --purge -y rpi-connect
-apt remove --purge -y rpi-connect-lite
-apt update
-apt upgrade -y
-apt install -y nodejs npm tmux
-apt autoremove -y
-apt clean
+sudo apt remove --purge -y rpi-connect
+sudo apt remove --purge -y rpi-connect-lite
+sudo apt update
+sudo apt upgrade -y
+sudo apt install -y nodejs npm tmux
+sudo apt autoremove -y
+sudo apt clean
 npm i ws shelljs pigpio
